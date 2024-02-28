@@ -3,10 +3,52 @@ import tkinter as tk
 
 # Mock account data
 accounts = {
-    "123456789": {
-        "password": "password123",
-        "balance": 5000,
-        "full_name": "John Doe",
+    "215321701332": {
+        "password": "1783",
+        "balance": 3500166,
+        "full_name": "Ahmed Abdelrazek Mohamed",
+        "status":"open"
+    },
+    "203659302214": {
+        "password": "1390",
+        "balance": 520001,
+        "full_name": "Salma Mohamed Foaad",
+        "status":"open"
+    },
+    "126355700193": {
+        "password": "1214",
+        "balance": 111000,
+        "full_name": "Adel Khaled Abdelrahman",
+        "status":"open"
+    },
+    "201455998011": {
+        "password": "2001",
+        "balance": 1200,
+        "full_name": "Saeed Amin Elsawy",
+        "status":"open"
+    },
+    "201122369851": {
+        "password": "8935",
+        "balance": 178933,
+        "full_name": "Amir Salama Elgendy",
+        "status":"open"
+    },
+    "201356788002": {
+        "password": "3420",
+        "balance": 55000,
+        "full_name": "Wael Mohamed khairy",
+        "status":"open"
+    },
+    "203366789564": {
+        "password": "1179",
+        "balance": 18000,
+        "full_name": "Mina Sameh Bishoy",
+        "status":"open"
+    },
+    "201236787812": {
+        "password": "1430",
+        "balance": 180350,
+        "full_name": "Omnia Ahmed Awad",
         "status":"open"
     }
 }
@@ -92,7 +134,7 @@ def reset():
 
 def cash_withdraw():
     withdraw_window = tk.Toplevel(root)
-    withdraw_window.title("Cash Withdraw", font=("Arial", 15))
+    withdraw_window.title("Cash Withdraw")
 
     amount_label = tk.Label(withdraw_window, text="Enter amount to withdraw (multiple of 100 L.E.):", font=("Arial", 16))
     amount_label.pack()
